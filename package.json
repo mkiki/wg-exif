@@ -1,0 +1,27 @@
+{
+  "name": "wg-exif",
+  "version": "2.0.0",
+  "description": "Exif tags management",
+  "author": "Alexandre Morin <aggmorin@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "debug": "iron-node index.js",
+    "debug-mocha": "iron-node node_modules/mocha/bin/_mocha"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkiki/wg-exif.git"
+  },
+  "dependencies": {
+    "extend":           "~3.0.0",
+    "moment":           "~2.10.6",
+    "wg-log": "*",
+    "wg-utils": "*"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4"
+  }
+}
