@@ -6,8 +6,6 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node index.js",
-    "debug": "iron-node index.js",
     "debug-mocha": "iron-node node_modules/mocha/bin/_mocha"
   },
   "main": "index.js",
